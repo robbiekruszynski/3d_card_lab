@@ -20,6 +20,10 @@ body {
   /* background-color: lightpink; */
 }
 .card {
+  /* background-image: url("hypno.gif");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-position: center;
   transform-style: preserve-3d;
   min-height: 80vh;
   width: 35rem;
@@ -44,7 +48,6 @@ body {
   /* width: 20rem; */
   /* z-index: 2; */
   transition: all 0.75s ease-out;
-  transition: all 0.75s ease-out;
 }
 
 .circle {
@@ -61,6 +64,7 @@ body {
 }
 
 .info h1 {
+  /* color: white; */
   font-size: 2rem;
   display: flex;
   justify-content: center;

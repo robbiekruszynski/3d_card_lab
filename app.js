@@ -41,5 +41,5 @@ container.addEventListener("mouseleave", (e) => {
   nft.style.transform = "translateZ(0px) rotateZ(0deg)";
   title.style.transform = "translateZ(0px)";
   description.style.transform = "translateZ(0px)";
-  purchase.style.transform = "translateZ0px)";
+  purchase.style.transform = "translateZ(0px)";
 });
