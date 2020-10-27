@@ -44,6 +44,7 @@ body {
   /* width: 20rem; */
   /* z-index: 2; */
   transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
 }
 
 .circle {
@@ -63,6 +64,7 @@ body {
   font-size: 2rem;
   display: flex;
   justify-content: center;
+  transition: all 0.75s ease-out;
 }
 
 .info h3 {
@@ -72,11 +74,13 @@ body {
   font-weight: lighter;
   display: flex;
   justify-content: center;
+  transition: all 0.75s ease-out;
 }
 
 .size {
   display: flex;
   justify-content: space-between;
+  transition: all 0.75s ease-out;
 }
 
 .size button {
@@ -97,6 +101,7 @@ body {
 
 .purchase {
   margin-top: 5rem;
+  transition: all 0.75s ease-out;
 }
 
 .purchase button {

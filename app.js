@@ -25,10 +25,21 @@ container.addEventListener("mousemove", (e) => {
 //animate in
 container.addEventListener("mouseenter", (e) => {
   card.style.transition = "none";
+
+  //item popout
+  title.style.transform = "translateZ(150px)";
+  nft.style.transform = "translateZ(200px) rotateZ(360deg)";
+  title.style.transform = "translateZ(150px)";
+  description.style.transform = "translateZ(125px)";
+  purchase.style.transform = "translateZ(150px)";
 });
 
 //animate out
 container.addEventListener("mouseleave", (e) => {
   card.style.transition = "all 0.5s ease";
   card.style.transform = `rotateY(0deg) rotateX(0deg)`;
+  nft.style.transform = "translateZ(0px) rotateZ(0deg)";
+  title.style.transform = "translateZ(0px)";
+  description.style.transform = "translateZ(0px)";
+  purchase.style.transform = "translateZ0px)";
 });
