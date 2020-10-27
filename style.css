@@ -32,10 +32,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
   z-index: 2;
 }
 .nft img {
-  width: 20rem;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  /* width: 20rem; */
   /* z-index: 2; */
   transition: all 0.75s ease-out;
 }
@@ -67,9 +72,39 @@ body {
   display: flex;
   justify-content: center;
 }
-}
 
-.sizes {
+.size {
   display: flex;
   justify-content: space-between;
+}
+
+.size button {
+  padding: 0.5rem 2rem;
+  background: none;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: lightgray;
+}
+
+.button.active {
+  background-color: lightgrey;
+  color: white;
+}
+
+.purchase {
+  margin-top: 5rem;
+}
+
+.purchase button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background-color: lightgray;
+  border: none;
+  color: white;
+  cursor: point;
+  border-radius: 30px;
+  font-size: bolder;
 }
