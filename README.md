@@ -1,1 +1,1 @@
-![ScreenShot]README.gif)
+![ScreenShot](./README.gif)
