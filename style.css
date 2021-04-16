@@ -65,12 +65,14 @@ body {
 }
 
 .info h1 {
-  color: white;
+  color: rgba(255,76,92);
   font-size: 2rem;
   display: flex;
   justify-content: center;
   transition: all 0.75s ease-out;
 }
+
+
 
 .info h3 {
   font-size: 1.3rem;
