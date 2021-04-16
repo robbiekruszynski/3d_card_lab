@@ -1,3 +1,15 @@
+:root {
+  --gradient: linear-gradient(
+    45deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+  );
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,9 +32,10 @@ body {
   /* background-color: lightpink; */
 }
 .card {
-/* background-image: url("hypno.gif"); 
+  /* background-image: url("hypno.gif"); 
   background-repeat: no-repeat;
   background-size: cover; */
+  /* background-image: var(--gradient); */
   background-position: center;
   transform-style: preserve-3d;
   min-height: 80vh;
@@ -30,8 +43,18 @@ body {
   border-radius: 30px;
   padding: 0rem 5rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  background-size: 100%;
+  /* animation: bg-animation 1s infinite alterntate; */
 }
 
+/* @keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100%{
+    background-position: right;
+  }
+} */
 
 .nft {
   min-height: 35vh;
@@ -51,29 +74,13 @@ body {
   transition: all 0.75s ease-out;
 }
 
-.circle {
-  width: 15rem;
-  height: 15rem;
-  background: linear-gradient(
-    to right,
-    rgba(245, 70, 66, 0.75),
-    rgba(8, 83, 156, 0.75)
-  );
-  position: absolute;
-  border-radius: 50%; */
-  /* /* z-index: 1; */
-}
-
 .info h1 {
-  color: rgba(255,76,92);
-  font-size: 2rem;
+  color: red;
+  font-size: 2.5rem;
   display: flex;
   justify-content: center;
   transition: all 0.75s ease-out;
 }
-
-
-
 .info h3 {
   font-size: 1.3rem;
   padding: 2rem 0rem;
@@ -98,7 +105,7 @@ body {
   border-radius: 30px;
   cursor: pointer;
   font-weight: bold;
-  color: rgba(255,76,92);
+  color: rgba(255, 76, 92);
 }
 
 .button.active {
@@ -114,7 +121,7 @@ body {
 .purchase button {
   width: 100%;
   padding: 1rem 0rem;
-  background-color: rgba(255,76,92);
+  background-color: rgba(255, 76, 92);
   border: none;
   color: white;
   cursor: point;
