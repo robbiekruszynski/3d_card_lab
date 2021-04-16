@@ -28,7 +28,7 @@ container.addEventListener("mouseenter", (e) => {
 
   //item popout
   title.style.transform = "translateZ(150px)";
-  nft.style.transform = "translateZ(200px) rotateZ(360deg)";
+  nft.style.transform = "translateZ(200px) rotateZ(-10deg)";
   title.style.transform = "translateZ(150px)";
   description.style.transform = "translateZ(125px)";
   purchase.style.transform = "translateZ(150px)";

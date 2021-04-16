@@ -20,7 +20,7 @@ body {
   /* background-color: lightpink; */
 }
 .card {
-  /* background-image: url("hypno.gif");
+/* background-image: url("hypno.gif"); 
   background-repeat: no-repeat;
   background-size: cover; */
   background-position: center;
@@ -31,6 +31,7 @@ body {
   padding: 0rem 5rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
+
 
 .nft {
   min-height: 35vh;
@@ -51,7 +52,7 @@ body {
 }
 
 .circle {
-  /* width: 15rem;
+  width: 15rem;
   height: 15rem;
   background: linear-gradient(
     to right,
@@ -60,11 +61,11 @@ body {
   );
   position: absolute;
   border-radius: 50%; */
-  /* z-index: 1; */
+  /* /* z-index: 1; */
 }
 
 .info h1 {
-  /* color: white; */
+  color: white;
   font-size: 2rem;
   display: flex;
   justify-content: center;
@@ -95,7 +96,7 @@ body {
   border-radius: 30px;
   cursor: pointer;
   font-weight: bold;
-  color: lightgray;
+  color: rgba(255,76,92);
 }
 
 .button.active {
@@ -111,7 +112,7 @@ body {
 .purchase button {
   width: 100%;
   padding: 1rem 0rem;
-  background-color: lightgray;
+  background-color: rgba(255,76,92);
   border: none;
   color: white;
   cursor: point;
