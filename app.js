@@ -15,8 +15,8 @@ const size = document.querySelector(".size");
 // (e) = event listener
 
 container.addEventListener("mousemove", (e) => {
-  let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
-  let yAxis = (window.innerWidth / 2 - e.pageY) / 25;
+  let xAxis = (window.innerWidth / 2 - e.pageX) / 5;
+  let yAxis = (window.innerWidth / 2 - e.pageY) / 5;
   card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 });
 
@@ -28,7 +28,7 @@ container.addEventListener("mouseenter", (e) => {
 
   //item popout
   title.style.transform = "translateZ(150px)";
-  nft.style.transform = "translateZ(200px) rotateZ(-10deg)";
+  nft.style.transform = "translateZ(200px) rotateZ(-25deg)";
   title.style.transform = "translateZ(150px)";
   description.style.transform = "translateZ(125px)";
   purchase.style.transform = "translateZ(150px)";
