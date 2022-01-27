@@ -35,8 +35,8 @@ body {
   /* background-image: url("hypno.gif"); 
   background-repeat: no-repeat;
   background-size: cover; */
-  /* background-image: var(--gradient); */
-  background-position: center;
+  background-image: var(--gradient);
+  background-position: left;
   transform-style: preserve-3d;
   min-height: 80vh;
   width: 35rem;
@@ -44,17 +44,17 @@ body {
   padding: 0rem 5rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
   background-size: 100%;
-  /* animation: bg-animation 1s infinite alterntate; */
+  animation: bg-animation 10s infinite alterntate;
 }
 
-/* @keyframes bg-animation {
+@keyframes bg-animation {
   0% {
     background-position: left;
   }
-  100%{
+  100% {
     background-position: right;
   }
-} */
+}
 
 .nft {
   min-height: 35vh;
@@ -75,7 +75,8 @@ body {
 }
 
 .info h1 {
-  color: red;
+  /* color: #00e070; */
+  color: #3f199b
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
@@ -105,7 +106,7 @@ body {
   border-radius: 30px;
   cursor: pointer;
   font-weight: bold;
-  color: rgba(255, 76, 92);
+  color: #3f199b
 }
 
 .button.active {
@@ -116,12 +117,14 @@ body {
 .purchase {
   margin-top: 5rem;
   transition: all 0.75s ease-out;
+  color: #3f199b
+
 }
 
 .purchase button {
   width: 100%;
   padding: 1rem 0rem;
-  background-color: rgba(255, 76, 92);
+  background-color:#3f199b;
   border: none;
   color: white;
   cursor: point;
